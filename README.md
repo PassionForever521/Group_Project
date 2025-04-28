@@ -15,16 +15,21 @@ Each `.sql` file corresponds to one table under the `test_db` database.
 Project Structure
 
 CREATE_TABLE_s/
- -01_Publisher.sql
-─ 02_Customer.sql
-─ 03_Employee.sql
-─ 04_Author.sql
-─ 05_Payment.sql
-─ 06_BookInventory.sql
-─ 07_Orders.sql
-─ 08_Written_By.sql
-─ 09_Contains.sql
-─ 10_Assists.sql
-─ 11_Manages.sql
-─ 12_Manager.sql
-─ 13_NonManager.sql
+-01_Publisher.sql
+-02_Customer.sql
+-03_Employee.sql
+-04_Author.sql
+-05_Payment.sql
+-06_BookInventory.sql
+-07_Orders.sql
+-08_Written_By.sql
+-09_Contains.sql
+-10_Assists.sql
+-11_Manages.sql
+-12_Manager.sql
+-13_NonManager.sql
+
+Validation Log
+-13 tables created successfully in `test_db` database.
+-No foreign key errors encountered.
+-Manual verification done using `SHOW TABLES` and `DESCRIBE` commands.
